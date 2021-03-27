@@ -12,15 +12,15 @@
             <li>회원가입</li>
         </ul>
         <p>개인정보 (필수)</p>
-        <form method= "get" action="signup.html">
+        <form method= "get" autocomplete="off" action="signup.html">
             <p><label>이름:
-                <input type= "text" name= "name" autofocus/>
+                <input type= "text" name= "name" autofocus autocomplete="on"/>
             </label></p>
             <p><label>생일:
                 <input type= "date" name= "date" autocomplete="on"/>
             </label></p>
             <p><label>학년:
-                <input type="text" name="grade" placeholder= "2" autocomplete="off"/>
+                <input type="text" name="grade" placeholder= "2" >
             <p><label>전화번호:
                 <input type="tel" name="tel" pattern = "\(\d{3}\)\d{4}-\d{4}" required/>
             </label></p>
