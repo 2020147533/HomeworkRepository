@@ -1,8 +1,8 @@
 h1{font-family:Georgia, 'Times New Roman', Times, serif;
-      font-size: 10em;
+      font-size: 1em;
     font-weight: bold;
     width: 20%;
-    height: 10px;}
+    height: 5px;}
 h2{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 ul{text-align:justify;
    margin-bottom: .6em;}
@@ -18,7 +18,6 @@ em{
 }
 div{
     text-align:center;
-    font-size: 100pt;
 }
 .um
 {
