@@ -14,19 +14,19 @@ em{
     text-align:center;
     background-color:lightgreen;
     color:black;
-    border-width:groove;
+    border-style:groove;
 }
 um{
     text-align:center;
     background-color:red;
     color:black;
-    border-width:groove;
+    border-style:groove;
 }
 om{
     text-align:center;
     background-color:skyblue;
     color:black;
-    border-width:groove;
+    border-style:groove;
 }
 
 
