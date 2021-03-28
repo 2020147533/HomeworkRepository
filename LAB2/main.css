@@ -1,0 +1,32 @@
+h1{font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 1em;
+    font-weight: bold;
+    width: 20%;
+    height: 10px}
+ul{text-align:justify;
+   margin-bottom: .6em}
+p{
+    text-align:left;
+    padding: .1em;
+}
+ .thick{border-width:thick;}
+em{
+    text-align:center;
+    background-color:lightgreen;
+    color:black;
+    border-width:groove;
+}
+um{
+    text-align:center;
+    background-color:red;
+    color:black;
+    border-width:groove;
+}
+om{
+    text-align:center;
+    background-color:skyblue;
+    color:black;
+    border-width:groove;
+}
+
+
