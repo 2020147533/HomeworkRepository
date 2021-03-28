@@ -12,7 +12,7 @@ p{
 p.thick{border-width:thick;}
 em{
     text-align:center;
-    background-color:lightgreen;
+    background-color:green;
     color:black;
     border-style:groove;
 }
@@ -24,7 +24,7 @@ um{
 }
 om{
     text-align:center;
-    background-color:skyblue;
+    background-color:blue;
     color:black;
     border-style:groove;
 }
