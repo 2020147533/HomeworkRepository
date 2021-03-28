@@ -16,19 +16,23 @@ em{
     color:black;
     border-style:groove;
 }
-um{
+div{
     text-align:center;
+    
+}
+.em
+{
     background-color:red;
     color:black;
     border-style:groove;
 }
-om{
+.om{
     text-align:center;
     background-color:blue;
     color:black;
     border-style:groove;
 }
-test{
+.hello{
     font-size: 100em;
 }
 
