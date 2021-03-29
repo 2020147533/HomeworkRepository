@@ -6,15 +6,7 @@ h1{font-family:Georgia, 'Times New Roman', Times, serif;
 ul{text-align:justify;
    margin-bottom: .6em;}
 
-em{
-    text-align:center;
-    background-color:green;
-    width: 10em;
-    color:black;
-    border-style:groove;
-  
-    height: 2em;
-}
+
 div{
     text-align:center;
 }
@@ -27,12 +19,21 @@ div{
     height: 2em;
 }
 .om{
-    text-align:center;
     background-color:blue;
     color:black;
     border-style:groove;
     width:10em;
     height: 2em;
+}
+.tm
+{
+    text-align:center;
+    background-color:green;
+    width: 10em;
+    color:black;
+    border-style:groove;
+    height: 2em;
+
 }
 
 
