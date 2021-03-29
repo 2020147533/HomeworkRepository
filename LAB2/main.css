@@ -17,6 +17,7 @@ div
     color:black;
     border-style:groove;
     width: 10em;
+    text-align:center;
     
 }
 .om{
@@ -24,6 +25,7 @@ div
     color:black;
     border-style:groove;
     width:10em;  
+    text-align:center;
     
 }
 .tm
@@ -32,6 +34,7 @@ div
     width: 10em;
     color:black;
     border-style:groove;
+    text-align:center;
 
 }
 
