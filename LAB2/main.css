@@ -21,7 +21,7 @@ div
     padding: 1em;
 }
 .om{
-    background-color:blue;
+    background-color:skyblue;
     color:black;
     border-style:groove;
     width:10em;  
@@ -31,7 +31,7 @@ div
 }
 .tm
 {
-    background-color:green;
+    background-color:lightgreen;
     width: 10em;
     color:black;
     border-style:groove;
