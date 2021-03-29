@@ -18,7 +18,7 @@ div
     border-style:groove;
     width: 10em;
     text-align:center;
-    
+    padding: 1em;
 }
 .om{
     background-color:blue;
@@ -26,6 +26,7 @@ div
     border-style:groove;
     width:10em;  
     text-align:center;
+    padding: 1em;
     
 }
 .tm
@@ -35,6 +36,7 @@ div
     color:black;
     border-style:groove;
     text-align:center;
+    padding: 1em;
 
 }
 
