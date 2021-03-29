@@ -7,7 +7,8 @@ ul{text-align:justify;
    margin-bottom: .6em;}
 
 
-div{
+div
+{
     text-align:center;
 }
 .um
@@ -16,14 +17,12 @@ div{
     color:black;
     border-style:groove;
     width: 10em;
-    height: 2em;
 }
 .om{
     background-color:blue;
     color:black;
     border-style:groove;
-    width:10em;
-    height: 2em;
+    width:10em;  
 }
 .tm
 {
@@ -31,7 +30,6 @@ div{
     width: 10em;
     color:black;
     border-style:groove;
-    height: 2em;
 
 }
 
