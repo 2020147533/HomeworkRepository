@@ -15,14 +15,14 @@ p
    text-align:left;
    width:1024px;
    height:50px;
-   animation: movingimage linear 2s 0s 1;
+   animation: movingimage linear 2s 2s 1;
    border-style:groove;
    border-color:purple;
 }
 @keyframes movingimage
 {
-    0% {right:100%}
-    100%{right: 0%}
+    0% {right:1024px}
+    100%{right: 0px}
 }
 .up
 {
