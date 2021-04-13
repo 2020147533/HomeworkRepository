@@ -11,30 +11,7 @@ p
     display:flex;
     align-items:center;
 }
-.title
-{
-   height:50px;
-   animation-name:movingimage;
-   animation-timing-function:linear;
-   animation-delay:2s;
-   animation-duration:2s;
-   font-size:40px;
-   
-}
-.temp
-{
-   animation-iteration-count: infinite;
-   border-style:groove;
-   border-color:purple;
-  
-   
 
-}
-@keyframes movingimage
-{
-    0% {margin-left: 100%; width: 300%; }
-    100%{margin-left: 0%; width: 100%;}
-}
 
 
 div
@@ -79,6 +56,28 @@ div
 .wrap
 {
     text-align:center;
+}
+.title
+{
+   height:50px;
+   animation-name:movingimage;
+   animation-timing-function:linear;
+   animation-delay:2s;
+   animation-duration:2s;
+   font-size:40px;
+   
+}
+.temp
+{
+   animation-iteration-count: infinite;
+   border-style:groove;
+   border-color:purple;
+
+}
+@keyframes movingimage
+{
+    0% {margin-left: 100%; width: 300%; }
+    100%{margin-left: 0%; width: 100%;}
 }
 
 
