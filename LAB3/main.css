@@ -18,10 +18,11 @@ p
    animation-delay:2s;
    animation-duration:2s;
    font-size:40px;
-   animation-iteration-count: infinite;
+   
 }
 .temp
 {
+   animation-iteration-count: infinite;
    border-style:groove;
    border-color:purple;
 
