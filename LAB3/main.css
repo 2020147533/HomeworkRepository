@@ -6,7 +6,17 @@ h1{font-family:Arial, Helvetica, sans-serif;
 ul{text-align:justify;
    height: 1em;
    margin-bottom: 2em;}
+p
+{
+    text-align:center;
+}
 
+.up
+{
+    background-color:purple;
+    width:1024px;
+    height:100px;
+}
 
 div
 {
