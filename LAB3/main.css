@@ -8,14 +8,27 @@ ul{text-align:justify;
    margin-bottom: 2em;}
 p
 {
-    text-align:center;
+    text-align:justify;
 }
-
+.title
+{
+   text-align:left;
+   width:1024px;
+   height:50px;
+   animation: movingimage linear 2s 0s 1;
+   border-style:groove;
+   border-color:purple;
+}
+@keyframes movingimage
+{
+    0% {right:100%}
+    100%{right: 0%}
+}
 .up
 {
     background-color:purple;
     width:1024px;
-    height:100px;
+    height:10px;
 }
 
 div
