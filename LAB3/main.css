@@ -25,20 +25,21 @@ p
    animation-iteration-count: infinite;
    border-style:groove;
    border-color:purple;
-   width: 300%;
-   width: 100%;
+  
+   
 
 }
 @keyframes movingimage
 {
-    0% {margin-left: 100%; }
-    100%{margin-left: 0%; }
+    0% {margin-left: 100%; width: 300%; }
+    100%{margin-left: 0%; width: 100%;}
 }
 .up
 {
     background-color:purple;
     width:1024px;
     height:10px;
+    justify-content:center;
 }
 
 div
