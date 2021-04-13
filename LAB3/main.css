@@ -12,7 +12,6 @@ p
 }
 .title
 {
-   text-align:left;
    height:50px;
    animation-name:movingimage;
    animation-timing-function:linear;
