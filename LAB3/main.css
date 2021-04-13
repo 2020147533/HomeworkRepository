@@ -72,6 +72,7 @@ div
 .up
 {
     background-color:purple;
+    display:inline-block;
     width:1024px;
     height:10px;
 }
