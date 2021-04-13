@@ -8,7 +8,7 @@ ul{text-align:justify;
    margin-bottom: 2em;}
 p
 {
-    text-align:justify;
+    justify-content:center;
 }
 .title
 {
@@ -39,7 +39,7 @@ p
     background-color:purple;
     width:1024px;
     height:10px;
-    justify-content:center;
+    
 }
 
 div
