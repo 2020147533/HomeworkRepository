@@ -14,8 +14,12 @@ p
 {
    text-align:left;
    height:50px;
-   animation: movingimage linear 2s 2s;
+   animation-name:movingimage;
+   animation-timing-function:linear;
+   animation-delay:2s;
+   animation-duration:2s;
    font-size:40px;
+   animation-iteration-count: infinite;
 }
 .temp
 {
@@ -25,11 +29,8 @@ p
 }
 @keyframes movingimage
 {
-    0% {right:1024px;}
-    25%{right:768px;}
-    50%{right:512px;}
-    75%{right:256px;}
-    100%{right:0px;}
+    0% {margin-left: 100%; width: 300%;}
+    100%{margin-left: 0%; width: 100%;}
 }
 .up
 {
