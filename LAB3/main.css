@@ -1,0 +1,45 @@
+h1{font-family:Arial, Helvetica, sans-serif;
+      font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 1em;
+    }
+ul{text-align:justify;
+   height: 1em;
+   margin-bottom: 2em;}
+
+
+div
+{
+    text-align:center;
+}
+.um
+{
+    background-color:red;
+    color:black;
+    border-style:groove;
+    width: 10em;
+    text-align:center;
+    padding: 1em;
+}
+.om{
+    background-color:skyblue;
+    color:black;
+    border-style:groove;
+    width:10em;  
+    text-align:center;
+    padding: 1em;
+    
+}
+.tm
+{
+    background-color:lightgreen;
+    width: 10em;
+    color:black;
+    border-style:groove;
+    text-align:center;
+    padding: 1em;
+
+}
+
+
+
