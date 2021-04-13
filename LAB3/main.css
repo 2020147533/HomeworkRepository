@@ -15,14 +15,21 @@ p
    text-align:left;
    height:50px;
    animation: movingimage linear 2s 2s;
+   font-size:40px;
+}
+.temp
+{
    border-style:groove;
    border-color:purple;
-   font-size:40px;
+
 }
 @keyframes movingimage
 {
-    0% {right:1024px}
-    100%{right: 0px}
+    0% {right:1024px;}
+    25%{right:768px;}
+    50%{right:512px;}
+    75%{right:256px;}
+    100%{right:0px;}
 }
 .up
 {
