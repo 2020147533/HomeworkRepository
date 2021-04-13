@@ -59,8 +59,8 @@ div
 }
 .wrapwrap
 {
+    display:inline-block;
     width:1024px;
-    
 }
 .title
 {
