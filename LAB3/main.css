@@ -17,7 +17,8 @@ p
    height:50px;
    animation: movingimage linear 2s 2s 1;
    border-style:groove;
-   border-color:purple;
+   border-color:gray;
+   font-size:100%;
 }
 @keyframes movingimage
 {
