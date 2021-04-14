@@ -13,6 +13,8 @@ p
 }
 img
 {
+    position:relative;
+    top:-225px;
     transition: transform 2s;
 }
 img:hover
@@ -29,8 +31,8 @@ div
 .low
 {
     border-color:grey;
-    height:500px;
-    width:500px;
+    height:400px;
+    width:400px;
     border-style:groove;
 }
 .um
@@ -87,7 +89,7 @@ div
     width:1024px;
     border-style:groove;
     border-color:purple;
-    height:600px;
+    height:450px;
     
 }
 .title
