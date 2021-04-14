@@ -29,8 +29,8 @@ div
 .low
 {
     border-color:grey;
-    height:150px;
-    width:150px;
+    height:500px;
+    width:500px;
     border-style:groove;
 }
 .um
@@ -87,7 +87,7 @@ div
     width:1024px;
     border-style:groove;
     border-color:purple;
-    height:300px;
+    height:600px;
     
 }
 .title
