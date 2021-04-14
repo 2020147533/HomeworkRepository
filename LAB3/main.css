@@ -26,6 +26,16 @@ div
 {
     text-align:center;
 }
+.flex-container 
+{
+    display: flex;
+    justify-content: center;
+    column-count:2;
+    column-gap:50px;
+    column-width:400px;
+    column-rule-style:groove;
+    column-rule-width:400px;
+  }
 .low
 {
     padding-top:150px;
@@ -92,6 +102,14 @@ div
     border-color:purple;
     height:450px;
     
+}
+.wraplast
+{
+    display:inline-block;
+    width:1024px;
+    border-style:groove;
+    border-color:purple;
+    height:200px;
 }
 .title
 {
