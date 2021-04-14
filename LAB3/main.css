@@ -23,17 +23,18 @@ td
 {
     text-align:center;
 }
+
+
+div
+{
+    text-align:center;
+}
 .low
 {
     border-color:grey;
     height:150px;
     width:150px;
     border-style:groove;
-}
-
-div
-{
-    text-align:center;
 }
 .um
 {
