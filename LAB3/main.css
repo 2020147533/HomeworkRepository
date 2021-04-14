@@ -30,6 +30,8 @@ div
 }
 .low
 {
+    padding-top:100px;
+    text-align:center;
     border-color:grey;
     height:400px;
     width:400px;
