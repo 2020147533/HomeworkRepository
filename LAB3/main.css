@@ -33,6 +33,7 @@ div
     border-color:grey;
     height:400px;
     width:400px;
+    box-sizing:border-box;
     border-style:groove;
 }
 .um
