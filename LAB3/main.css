@@ -79,6 +79,7 @@ div
     border-style:groove;
     border-color:purple;
     height:50px;
+    margin:5px;
 }
 .wrapnew
 {
@@ -86,7 +87,7 @@ div
     width:1024px;
     border-style:groove;
     border-color:purple;
-
+    height:100px;
     
 }
 .title
