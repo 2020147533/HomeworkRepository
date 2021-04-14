@@ -61,11 +61,14 @@ div
 {
     display:inline-block;
     width:1024px;
+    border-style:groove;
+    border-color:purple;
+    height:50px;
 }
 .title
 {
    text-align:left;
-   height:50px;
+   height:40px;
    animation-name:movingimage;
    animation-timing-function:linear;
    animation-delay:2s;
@@ -76,8 +79,7 @@ div
 .temp
 {
    animation-iteration-count: infinite;
-   border-style:groove;
-   border-color:purple;
+   
 
 }
 @keyframes movingimage
