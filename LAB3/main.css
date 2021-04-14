@@ -19,7 +19,13 @@ img:hover
 {
     transform: scale(2,2);
 }
-
+td
+{
+    border-color:grey;
+    height:150px;
+    width:150px;
+    border-style:groove;
+}
 
 div
 {
@@ -71,6 +77,15 @@ div
     border-style:groove;
     border-color:purple;
     height:50px;
+}
+.wrapnew
+{
+    display:inline-block;
+    width:1024px;
+    border-style:groove;
+    border-color:purple;
+    height:200px;
+    
 }
 .title
 {
