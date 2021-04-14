@@ -71,7 +71,7 @@ div
    height:40px;
    animation-name:movingimage;
    animation-timing-function:linear;
-   animation-delay:2s;
+   animation-delay:1s;
    animation-duration:2s;
    font-size:40px;
    
