@@ -13,8 +13,6 @@ p
 }
 img
 {
-    position:relative;
-    top:-225px;
     transition: transform 2s;
 }
 img:hover
