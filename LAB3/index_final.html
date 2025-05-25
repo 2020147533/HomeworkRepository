@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Internet Programming - Movie Catalog</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #222;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      margin: 10px 0;
+      text-align: right;
+      padding: 0 20px;
+    }
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    #movie-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .movie-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 200px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .movie-card:hover {
+      transform: scale(1.03);
+    }
+    .movie-card img {
+      width: 100%;
+      height: auto;
+    }
+    .movie-card-content {
+      padding: 10px;
+    }
+    .movie-card-content h3 {
+      font-size: 1.1em;
+      margin: 5px 0;
+    }
+    .movie-card-content p {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎬 Internet Programming Movie Catalog</h1>
+  </header>
+
+  <nav>
+    <a href="login.html">로그인</a>
+    <a href="signup.html">회원가입</a>
+  </nav>
+
+  <section id="movie-container">
+    <!-- Movies will be dynamically inserted here -->
+  </section>
+
+  <footer>
+    &copy; 2025 JSS Pictures. All rights reserved.
+  </footer>
+
+  <script>
+    fetch('product.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('movie-container');
+        data.forEach(movie => {
+          const card = document.createElement('div');
+          card.className = 'movie-card';
+          card.innerHTML = `
+            <img src="${movie.poster}" alt="${movie.title}">
+            <div class="movie-card-content">
+              <h3>${movie.title}</h3>
+              <p><strong>개봉일:</strong> ${movie.release_date}</p>
+              <p>${movie.overview.substring(0, 80)}...</p>
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      })
+      .catch(error => {
+        console.error('Failed to load product.json:', error);
+      });
+  </script>
+
+</body>
+</html>
