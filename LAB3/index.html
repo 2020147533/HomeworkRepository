@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>영화 목록</title>
+  <title>인프밍 영화 정보 사이트입니다.</title>
   <style>
     body {
       max-width: 1020px;
@@ -14,7 +14,7 @@
       text-align: center;
       padding: 10px;
     }
-    #search-bar, #sort-options {
+    #search-bar {
       display: flex;
       justify-content: space-between;
       padding: 10px;
@@ -54,16 +54,32 @@
     .movie-card:hover .movie-overlay {
       opacity: 1;
     }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>영화 목록</h1>
+    <h1>인프밍 영화 정보 사이트입니다.</h1>
   </header>
 
+  <nav>
+    <a href="login.html">로그인</a>
+    <a href="signup.html">회원가입</a>
+  </nav>
+
   <section id="search-bar">
-    <input type="text" id="keyword" placeholder="키워드 검색">
+    <input type="text" id="keyword" placeholder="키워드 검색" style="flex: 1; margin-right: 10px;">
     <select id="sort">
       <option value="rating-asc">평점 오름차순</option>
       <option value="rating-desc">평점 내림차순</option>
@@ -83,7 +99,7 @@
   <script>
     let movies = [];
     let page = 1;
-    let perPage = 4;
+    const perPage = 4;
 
     async function fetchMovies() {
       const res = await fetch('product.json');
